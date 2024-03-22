@@ -1,0 +1,594 @@
+:root {
+	--default-font-family:
+		-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+		Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+		"Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+		"Source Han Sans CN", sans-serif;
+}
+
+body {
+	color: #000575;
+	/* red, blue, yellow, etc */
+	font-family: "Roboto", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 24px;
+	/* 0px - 100px and beyond */
+	text-align: left;
+	/* left, center or right  */
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+	text-shadow: 0px 0px 1px black;
+}
+
+.main-container {
+	overflow: hidden;
+}
+
+.main-container,
+.main-container * {
+	box-sizing: border-box;
+}
+
+input,
+select,
+textarea,
+button {
+	outline: 0;
+}
+
+.main-container {
+	position: relative;
+	width: 1400px;
+	height: 1057px;
+	margin: 0 auto;
+	background: #0356d2;
+	overflow: hidden;
+	border-radius: 25px;
+}
+
+.side-info-frame {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: nowrap;
+	gap: 16px;
+	position: absolute;
+	width: 310px;
+	height: 1016px;
+	top: 32px;
+	left: 1081px;
+	padding: 47px 37px 47px 37px;
+	background: #a2a43e;
+	z-index: 13;
+	overflow: hidden;
+	border-radius: 25px;
+}
+
+.web-design-services {
+	position: relative;
+	color: #0b12af;
+	font-family: Kokoro, var(--default-font-family);
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 20px;
+	text-align: left;
+	text-transform: capitalize;
+	letter-spacing: -0.50px;
+	z-index: 14;
+	-webkit-text-stroke: 1px rgba(0, 0, 0, 0.5);
+}
+
+.flex-column-e {
+	position: absolute;
+	width: 8.29%;
+	height: 8.09%;
+	top: 4.64%;
+	left: 2.86%;
+	z-index: 7;
+}
+
+.ellipse {
+	position: absolute;
+	width: 93.58%;
+	height: 129.73%;
+	top: 0;
+	left: 0;
+	background: url(./assets/images/2762f133-140d-481b-b219-3f4797b66d3f.png) no-repeat center;
+	background-size: 100% 100%;
+	z-index: 4;
+}
+
+.ellipse-1 {
+	position: absolute;
+	width: 92.24%;
+	height: 127.39%;
+	top: 10.52%;
+	left: 7.76%;
+	background: url(./assets/images/e1605641-a08a-48f2-8a46-a1d26dbc594b.png) no-repeat center;
+	background-size: 100% 100%;
+	z-index: 1;
+}
+
+.i {
+	display: flex;
+	align-items: flex-start;
+	justify-content: flex-start;
+	position: absolute;
+	height: 86.49%;
+	top: 12.86%;
+	left: 31.44%;
+	color: #000575;
+	font-family: Kokoro, var(--default-font-family);
+	font-size: 64px;
+	font-weight: 400;
+	line-height: 74px;
+	text-align: left;
+	white-space: nowrap;
+	z-index: 5;
+}
+
+.e {
+	display: flex;
+	align-items: flex-start;
+	justify-content: flex-start;
+	position: absolute;
+	height: 43.24%;
+	top: 28.83%;
+	left: 46.79%;
+	color: #000575;
+	font-family: Kokoro, var(--default-font-family);
+	font-size: 32px;
+	font-weight: 400;
+	line-height: 37px;
+	text-align: left;
+	white-space: nowrap;
+	z-index: 6;
+}
+
+.x {
+	display: flex;
+	align-items: flex-start;
+	justify-content: flex-start;
+	position: absolute;
+	height: 43.24%;
+	top: 56.76%;
+	left: 46.79%;
+	color: #000575;
+	font-family: Kokoro, var(--default-font-family);
+	font-size: 32px;
+	font-weight: 400;
+	line-height: 37px;
+	text-align: left;
+	white-space: nowrap;
+	z-index: 7;
+}
+
+.flex-column-ac {
+	position: absolute;
+	width: 785px;
+	height: 955px;
+	top: 50%;
+	left: 50%;
+	transform: translate(-65.48%, -44.66%);
+	z-index: 15;
+}
+
+.heading-frame {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: nowrap;
+	gap: 10px;
+	position: relative;
+	width: 785px;
+	height: 115px;
+	margin: 0 0 0 0;
+	z-index: 8;
+	border-radius: 16px;
+}
+
+.ie-heading-text {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	align-self: stretch;
+	flex-wrap: nowrap;
+	flex-grow: 1;
+	flex-shrink: 0;
+	flex-basis: 0;
+	position: relative;
+	min-width: 0;
+	min-height: 0;
+	z-index: 9;
+}
+
+#interactive-experiences {
+	display: flex;
+	align-items: flex-start;
+	justify-content: center;
+	flex-shrink: 0;
+	flex-basis: auto;
+	position: relative;
+	width: 866px;
+	height: 96px;
+	font-family: Kokoro, var(--default-font-family);
+	font-size: 64px;
+	font-weight: 400;
+	line-height: 96px;
+	text-align: center;
+	white-space: nowrap;
+	letter-spacing: -0.64px;
+	background: linear-gradient(90deg, #080c6b, #1118d1);
+	z-index: 10;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.ie-sub-heading-text {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	align-self: stretch;
+	flex-wrap: nowrap;
+	flex-grow: 1;
+	flex-shrink: 0;
+	flex-basis: 0;
+	position: relative;
+	min-width: 0;
+	min-height: 0;
+	z-index: 11;
+}
+
+.experience-our-designs {
+	flex-shrink: 0;
+	flex-basis: auto;
+	position: relative;
+	height: 48px;
+	font-family: Kokoro, var(--default-font-family);
+	font-size: 32px;
+	font-weight: 400;
+	line-height: 48px;
+	text-align: left;
+	white-space: nowrap;
+	letter-spacing: -0.32px;
+	background: linear-gradient(90deg, #080c6b, #1118d1);
+	z-index: 12;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.iphone-frame {
+	position: relative;
+	width: 779px;
+	height: 836px;
+	margin: 4px 0 0 0;
+	background: #0356d2;
+	z-index: 15;
+	overflow: hidden;
+}
+
+.iphone-render {
+	position: absolute;
+	width: 2240px;
+	height: 2000px;
+	top: -194px;
+	left: -729px;
+	background: url(./assets/images/iphone-img.png) no-repeat center;
+	background-size: cover;
+	z-index: 16;
+}
+
+.contact-form-layout {
+	position: absolute;
+	width: 661px;
+	height: 742px;
+	top: 86px;
+	left: 61px;
+	background: #0052ce;
+	z-index: 17;
+	overflow: hidden;
+	box-shadow: 0 4px 50px 0 rgba(0, 0, 0, 0.25);
+}
+
+.form-example {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	flex-wrap: nowrap;
+	position: relative;
+	width: 532px;
+	height: 640px;
+	margin: 27px 0 0 72px;
+	z-index: 18;
+}
+
+.header-frame {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	align-self: stretch;
+	flex-wrap: nowrap;
+	flex-shrink: 0;
+	gap: 10px;
+	position: relative;
+	padding: 18px 0 48px 0;
+	z-index: 19;
+	overflow: hidden;
+}
+
+.request {
+	align-self: stretch;
+	flex-shrink: 0;
+	flex-basis: auto;
+	position: relative;
+	height: 58px;
+	font-size: 48px;
+	font-weight: 500;
+	line-height: 58px;
+	text-align: center;
+	white-space: nowrap;
+	letter-spacing: -0.5px;
+	background: linear-gradient(90deg, #0018f4, #000000);
+	text-shadow: 0px 0px 1px black;
+	z-index: 20;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.header-line {
+	align-self: stretch;
+	flex-shrink: 0;
+	position: relative;
+	height: 1px;
+	background: url(./assets/images/d42fbb21-0fa0-41da-8c3f-73bf510a9ff8.png) no-repeat center;
+	background-size: cover;
+	z-index: 21;
+}
+
+#register {
+	position: absolute;
+	width: 120px;
+	height: 60px;
+	top: 685px;
+	left: 325px;
+	cursor: pointer;
+	font-size: 0px;
+	background: transparent;
+	border: none;
+	z-index: 22;
+}
+
+.register-2 {
+	display: block;
+	position: relative;
+	height: 24px;
+	margin: 5px 0 0 15px;
+	color: #080c6b;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 24px;
+	text-align: left;
+	text-shadow: 0px 0px 1px black;
+	white-space: nowrap;
+	z-index: 24;
+}
+
+.rectangle {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background: #ffffff;
+	border: 1px solid #21258b;
+	z-index: 23;
+	border-radius: 16px;
+}
+
+.contact-us {
+	display: flex;
+	align-items: flex-start;
+	justify-content: flex-start;
+	position: absolute;
+	height: 4.55%;
+	top: 24.64%;
+	left: 9.24%;
+	font-size: 32px;
+	font-weight: 700;
+	line-height: 38px;
+	text-align: left;
+	white-space: nowrap;
+	letter-spacing: -0.32px;
+	z-index: 23;
+}
+
+.frame {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	flex-wrap: nowrap;
+	gap: 5px;
+	position: absolute;
+	width: 27.52%;
+	height: 11.18%;
+	top: 30%;
+	left: 9.24%;
+	z-index: 25;
+}
+
+.name {
+	flex-shrink: 0;
+	flex-basis: auto;
+	position: relative;
+	height: 29px;
+	color: #000000;
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 28.776px;
+	text-align: left;
+	white-space: nowrap;
+	z-index: 26;
+}
+
+.text-field {
+	flex-shrink: 0;
+	position: relative;
+	width: 625px;
+	height: 72px;
+	background: #fff9f9;
+	border: 1px solid #000000;
+	z-index: 27;
+	border-radius: 16px;
+	font-size: 24px;
+}
+
+.text {
+	display: flex;
+	align-items: flex-start;
+	justify-content: flex-start;
+	position: absolute;
+	height: 63px;
+	top: 341px;
+	left: 92px;
+	color: #000000;
+	font-family: Kokoro, var(--default-font-family);
+	font-size: 36px;
+	font-weight: 400;
+	line-height: 54px;
+	text-align: left;
+	white-space: nowrap;
+	z-index: 34;
+}
+
+.email {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	flex-wrap: nowrap;
+	gap: 5px;
+	position: absolute;
+	width: 27.52%;
+	height: 11.18%;
+	top: 45%;
+	left: 9.24%;
+	z-index: 28;
+}
+
+.budget-amount {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	flex-wrap: nowrap;
+	gap: 5px;
+	position: absolute;
+	width: 27.52%;
+	height: 11.18%;
+	font-size: 24px;
+	font-weight: 700;
+	top: 60%;
+	left: 9.24%;
+	z-index: 28;
+}
+
+.email-input {
+	flex-shrink: 0;
+	flex-basis: auto;
+	position: relative;
+	height: 29px;
+	color: #000000;
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 28.776px;
+	text-align: left;
+	white-space: nowrap;
+	z-index: 29;
+}
+
+.text-field-2 {
+	flex-shrink: 0;
+	position: relative;
+	width: 625px;
+	height: 72px;
+	background: #fff9f9;
+	border: 1px solid #000000;
+	z-index: 30;
+	border-radius: 16px;
+	font-size: 24px;
+}
+
+.button {
+	flex-shrink: 0;
+	position: relative;
+	width: 396px;
+	height: 72px;
+	cursor: pointer;
+	background: #fff9f9;
+	border: 1px solid #000000;
+	z-index: 30;
+	border-radius: 16px;
+	font-size: 24px;
+}
+
+.email-updates {
+	display: flex;
+	align-items: flex-start;
+	justify-content: flex-start;
+	position: absolute;
+	height: 3.47%;
+	top: 71.25%;
+	left: 18.88%;
+	color: #000000;
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 28.776px;
+	text-align: left;
+	white-space: nowrap;
+	z-index: 31;
+}
+
+#fullName {
+	flex-shrink: 0;
+	position: relative;
+	width: 625px;
+	height: 72px;
+	background: #fff9f9;
+	border: 1px solid #000000;
+	z-index: 27;
+	border-radius: 16px;
+	font-size: 24px;
+	font-weight: 700;
+}
+
+#emailAddr {
+	flex-shrink: 0;
+	position: relative;
+	width: 625px;
+	height: 72px;
+	background: #fff9f9;
+	border: 1px solid #000000;
+	z-index: 30;
+	border-radius: 16px;
+	font-size: 24px;
+	font-weight: 700;
+}
+
+#budget-el {
+	flex-shrink: 0;
+	position: relative;
+	width: 625px;
+	height: 72px;
+	background: #fff9f9;
+	border: 1px solid #000000;
+	z-index: 33;
+	border-radius: 16px;
+	font-size: 24px;
+	font-weight: 700;
+}
