@@ -1,0 +1,433 @@
+@media screen and (min-width: 80rem) {
+	h1 {
+		font-size: 6vm;
+	}
+
+	.main-container {
+		margin: 1em 2em;
+	}
+}
+
+:root {
+	--default-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+	Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+	"Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+	"Source Han Sans CN", sans-serif;
+}
+
+body {
+	color: #000575;
+	/* red, blue, yellow, etc */
+	font-family: "Roboto", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 24px;
+	/* 0px - 100px and beyond */
+	text-align: left;
+	/* left, center or right  */
+}
+
+.main-container {
+	overflow: hidden;
+}
+
+.main-container,
+.main-container * {
+	box-sizing: border-box;
+}
+
+input,
+select,
+textarea,
+button {
+	outline: 0;
+}
+
+.main-container {
+	position: relative;
+	width: 1440px;
+	height: 1024px;
+	margin: 0 auto;
+	background: #f6dec3;
+	overflow: hidden;
+}
+
+.frame-one {
+	display: flex;
+	align-items: center;
+	flex-wrap: nowrap;
+	gap: 10px;
+	position: relative;
+	width: 1328px;
+	height: 76px;
+	margin: 70px 0 0 69px;
+	background: #0287d2;
+	border: 1px solid rgba(15, 8, 61, 0.42);
+	z-index: 20;
+	border-radius: 10px;
+}
+
+.frame-two {
+	display: flex;
+	align-items: center;
+	flex-wrap: nowrap;
+	flex-grow: 1;
+	flex-shrink: 0;
+	flex-basis: 0;
+	gap: 10px;
+	position: relative;
+	min-width: 0;
+	padding: 10px 10px 10px 10px;
+	z-index: 21;
+}
+
+.home {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-shrink: 0;
+	flex-basis: auto;
+	position: relative;
+	width: 73px;
+	height: 49px;
+	color: #000000;
+	font-family: Quintessential, var(--default-font-family);
+	font-size: 32px;
+	font-weight: 400;
+	line-height: 49px;
+	text-align: center;
+	white-space: nowrap;
+	z-index: 22;
+}
+
+.frame-three {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: nowrap;
+	flex-grow: 1;
+	flex-shrink: 0;
+	flex-basis: 0;
+	gap: 10px;
+	position: relative;
+	min-width: 0;
+	padding: 10px 10px 10px 10px;
+	z-index: 23;
+}
+
+.iex {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-shrink: 0;
+	flex-basis: auto;
+	position: relative;
+	width: 49px;
+	height: 49px;
+	color: #000000;
+	font-family: Quintessential, var(--default-font-family);
+	font-size: 32px;
+	font-weight: 400;
+	line-height: 49px;
+	text-align: center;
+	white-space: nowrap;
+	z-index: 24;
+}
+
+.frame {
+	display: flex;
+	align-items: center;
+	flex-wrap: nowrap;
+	flex-grow: 1;
+	flex-shrink: 0;
+	flex-basis: 0;
+	gap: 10px;
+	position: relative;
+	min-width: 0;
+	padding: 10px 10px 10px 10px;
+	z-index: 25;
+}
+
+.pinixu {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-shrink: 0;
+	flex-basis: auto;
+	position: relative;
+	width: 85px;
+	height: 49px;
+	color: #000000;
+	font-family: Quintessential, var(--default-font-family);
+	font-size: 32px;
+	font-weight: 400;
+	line-height: 49px;
+	text-align: center;
+	white-space: nowrap;
+	z-index: 26;
+}
+
+.frame-1 {
+	display: flex;
+	align-items: center;
+	flex-wrap: nowrap;
+	flex-grow: 1;
+	flex-shrink: 0;
+	flex-basis: 0;
+	gap: 10px;
+	position: relative;
+	min-width: 0;
+	padding: 10px 10px 10px 10px;
+	z-index: 27;
+}
+
+.poes {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-shrink: 0;
+	flex-basis: auto;
+	position: relative;
+	width: 75px;
+	height: 49px;
+	color: #000000;
+	font-family: Quintessential, var(--default-font-family);
+	font-size: 32px;
+	font-weight: 400;
+	line-height: 49px;
+	text-align: center;
+	white-space: nowrap;
+	z-index: 28;
+}
+
+.frame-2 {
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	flex-wrap: nowrap;
+	flex-shrink: 0;
+	gap: 10px;
+	position: relative;
+	width: 138px;
+	height: 59px;
+	padding: 10px 10px 10px 10px;
+	background: #0287d2;
+	z-index: 29;
+	border-radius: 10px;
+}
+
+.about-us {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-shrink: 0;
+	flex-basis: auto;
+	position: relative;
+	width: 120px;
+	height: 49px;
+	color: #000000;
+	font-family: Quintessential, var(--default-font-family);
+	font-size: 32px;
+	font-weight: 400;
+	line-height: 49px;
+	text-align: center;
+	white-space: nowrap;
+	z-index: 30;
+}
+
+.age-appropriate {
+	display: flex;
+	align-items: flex-start;
+	justify-content: center;
+	position: relative;
+	width: 955px;
+	height: 42px;
+	margin: 32px 0 0 240px;
+	color: #000000;
+	font-family: Average Sans, var(--default-font-family);
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 20.736px;
+	text-align: center;
+	text-overflow: initial;
+	z-index: 4;
+	overflow: hidden;
+}
+
+.ellipse {
+	position: absolute;
+	width: 7.54%;
+	height: 10.84%;
+	top: 18.36%;
+	left: 7.99%;
+	background: url(./assets/images/ef4c02be-3bb8-4558-be07-3971816ea62d.png) no-repeat center;
+	background-size: 100% 100%;
+	z-index: 12;
+}
+
+.ellipse-3 {
+	position: absolute;
+	width: 7.43%;
+	height: 10.64%;
+	top: 19.24%;
+	left: 8.61%;
+	background: url(./assets/images/e960c69c-64ac-42c4-bb0d-b1b3f8bbff60.png) no-repeat center;
+	background-size: 100% 100%;
+	z-index: 9;
+}
+
+.i {
+	display: flex;
+	align-items: flex-start;
+	justify-content: flex-start;
+	position: absolute;
+	height: 7.23%;
+	top: 19.43%;
+	left: 10.52%;
+	color: #021bff;
+	font-family: Kokoro, var(--default-font-family);
+	font-size: 64px;
+	font-weight: 400;
+	line-height: 74px;
+	text-align: left;
+	white-space: nowrap;
+	z-index: 13;
+}
+
+.e {
+	display: flex;
+	align-items: flex-start;
+	justify-content: flex-start;
+	position: absolute;
+	height: 3.61%;
+	top: 20.77%;
+	left: 11.76%;
+	color: #021bff;
+	font-family: Kokoro, var(--default-font-family);
+	font-size: 32px;
+	font-weight: 400;
+	line-height: 37px;
+	text-align: left;
+	white-space: nowrap;
+	z-index: 14;
+}
+
+.personal-open-elective-stats {
+	display: flex;
+	align-items: flex-start;
+	justify-content: flex-start;
+	position: absolute;
+	height: 38px;
+	top: 218px;
+	left: 536px;
+	color: #0255d2;
+	font-family: Alegreya Sans, var(--default-font-family);
+	font-size: 32px;
+	font-weight: 400;
+	line-height: 38px;
+	text-align: left;
+	white-space: nowrap;
+	z-index: 2;
+}
+
+.x {
+	display: flex;
+	align-items: flex-start;
+	justify-content: flex-start;
+	position: absolute;
+	height: 3.61%;
+	top: 23.1%;
+	left: 11.76%;
+	color: #021bff;
+	font-family: Kokoro, var(--default-font-family);
+	font-size: 32px;
+	font-weight: 400;
+	line-height: 37px;
+	text-align: left;
+	white-space: nowrap;
+	z-index: 15;
+}
+
+.rectangle {
+	position: absolute;
+	width: 388px;
+	height: 430px;
+	top: 538px;
+	left: 1010px;
+	background: rgba(217, 217, 217, 0.2)
+	url(./assets/images/cb977d01826c822958f5768b619334639f8bda61.png) no-repeat center;
+	background-size: cover;
+}
+
+.frame-button {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: nowrap;
+	gap: 10px;
+	position: absolute;
+	width: 180px;
+	height: 126px;
+	top: 808px;
+	left: 126px;
+	padding: 10px 10px 10px 10px;
+	cursor: pointer;
+	background: #a0d5fb;
+	border: none;
+	z-index: 16;
+	border-radius: 16px;
+}
+
+.frame-div {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: nowrap;
+	flex-shrink: 0;
+	gap: 10px;
+	position: relative;
+	width: 170px;
+	height: 116px;
+	padding: 10px 10px 10px 10px;
+	z-index: 17;
+}
+
+.frame-div-4 {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: nowrap;
+	flex-shrink: 0;
+	gap: 10px;
+	position: relative;
+	width: 123px;
+	height: 55px;
+	padding: 6px 16px 6px 16px;
+	background: #a0d5fb;
+	z-index: 18;
+	overflow: hidden;
+	border-radius: 16px;
+}
+
+.button-back {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-shrink: 0;
+	flex-basis: auto;
+	position: relative;
+	width: 91px;
+	height: 74px;
+	color: #000000;
+	font-family: Quintessential, var(--default-font-family);
+	font-size: 48px;
+	font-weight: 400;
+	line-height: 73.594px;
+	text-align: center;
+	white-space: nowrap;
+	z-index: 19;
+}

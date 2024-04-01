@@ -1,5 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
+<!--
+   index.html
+   
+   Copyright 2024 Michael Brooke <michaelbrooke@hotmail.com>
+   
+   This program is free software; you can redistribute it and/or modify
+   it under the terms of the GNU General Public License as published by
+   the Free Software Foundation; either version 2 of the License, or
+   (at your option) any later version.
+   
+   This program is distributed in the hope that it will be useful,
+   but WITHOUT ANY WARRANTY; without even the implied warranty of
+   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+   GNU General Public License for more details.
+   
+   You should have received a copy of the GNU General Public License
+   along with this program; if not, write to the Free Software
+   Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
+   MA 02110-1301, USA.
+   
+   
+-->
 
 <head>
 	<meta charset="UTF-8" />
@@ -14,43 +36,38 @@
 
 <body>
 	<div class="main-container">
+		<div class="iex-logo">
+			<div class="ellipse"></div>
+			<span class="click-logo"><a href="./FirstPage/index.html">
+					Click here to<br />access the first page.</a>
+			</span>
+			<div class="ellipse-letters"></div>
+			<span class="i">I</span><span class="e">E</span><span class="x">X</span>
+		</div>
 		<div class="side-info-frame">
 			<span class="web-design-services">
 				<ul>
 					<li>We do Web Design, Data Services and General Creativity for Business owners.</li>
-				</ul>
-				<ul>
+					<br />
 					<li>There is no job too small for us, so please come in and see what we can do.</li>
-				</ul>
-				<ul>
+					<br />
 					<li>Some of our services are: create web pages for mobile, tablets and desktops.</li>
-				</ul>
-				<ul>
+					<br />
 					<li>Graphic design, web flow and product research.</li>
-				</ul>
-				<ul>
+					<br />
 					<li>Unique production of application programming interfaces.</li>
-				</ul>
-				<ul>
+					<br />
 					<li>Database design.</li>
-				</ul>
-				<ul>
+					<br />
 					<li>Consumer research.</li>
-				</ul>
-				<ul>
+					<br />
 					<li>Writer to create professional narratives for your product.</li>
-				</ul>
-				<ul>
+					<br />
 					<li>We have a professional staff that focuses on getting the most out of your business.</li>
 				</ul>
 			</span>
 		</div>
-		<div class="flex-column-e">
-			<div class="ellipse"></div>
-			<div class="ellipse-1"></div>
-			<span class="i">I</span><span class="e">E</span><span class="x">X</span>
-		</div>
-		<div class="flex-column-ac">
+		<div class="main-layout-frame">
 			<div class="heading-frame">
 				<div class="ie-heading-text">
 					<span id="interactive-experiences">Interactive Experiences</span>
@@ -64,12 +81,12 @@
 				<div class="contact-form-layout">
 					<div class="form-example">
 						<div class="header-frame">
-							<span class="request">Request</span>
+							<span class="request">Request for Information</span>
 							<div class="header-line"></div>
+							<span class="contact-us">Please Contact Us</span>
 						</div>
 					</div>
 				</div>
-				<span class="contact-us">Please Contact Us</span>
 				<div class="frame">
 					<span class="name">Name (up to 32 chars)</span>
 					<input id="fullName" name="fullname" placeholder="Enter your First and Last Name" minlength="4"
@@ -82,11 +99,11 @@
 				</div>
 				<div class="budget-amount">
 					<span id="budget-input">Budget Amount</span>
-					<input id="budget-el" name="budget-el" placeholder="Budget Amount" minlength="8" maxlength="50"
-						type="text" size="25">
+					<input id="budget-el" name="budget-el" placeholder="Enter an estimated Budget Amount" minlength="8"
+						maxlength="50" type="text" size="25">
 				</div>
-				<button id="register" onclick="register()">
-					<span class=" register-2">Register</span>
+				<button id="register-btn" onclick="register()">
+					<span class="register-input">Register</span>
 					<div class="rectangle"></div>
 				</button>
 			</div>

@@ -13,4 +13,6 @@ function register() {
 	let outputLine = fullNameStr + "\t" + emailAddrStr + "\t" + budgetAmtStr
 
 	console.log(outputLine)
+
+	location.reload()
 }
